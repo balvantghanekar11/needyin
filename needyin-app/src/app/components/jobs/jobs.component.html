@@ -1,0 +1,10 @@
+<div  *ngIf="jobs?.length > 0;else noJobs">
+    <ul *ngFor="let job of jobs">
+        <li><strong>{{job.companyName}}</strong>{{job.createdOn}}</li>
+
+    </ul>
+</div>
+<ng-template #noJobs>
+    <h5>There are no jobs to list</h5>
+
+</ng-template>
