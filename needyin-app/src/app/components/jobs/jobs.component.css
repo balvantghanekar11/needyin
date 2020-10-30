@@ -1,0 +1,46 @@
+ .jobs{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.jobs{
+    padding: 20px;
+    display: block;
+}
+
+.jobs .item{
+    border: 1px solid #e0e0e0;
+    padding: 40px;
+    display: block;
+}
+.jobs .item{
+	background: #fff;
+	border: 1px solid #e0e0e0;
+	padding: 25px;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.item_wrap .item:first-child{
+	margin-right: 20px;
+}
+
+
+/* new */
+.jobs .item .head ul li{
+    display: inline;
+    text-decoration: none;
+    padding: 15px;
+}
+
+button{
+    float: right;
+    margin-right: 10px;
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+    width: 120px;
+    border-radius: 2px solid darkblue;
+}
+           
+     
