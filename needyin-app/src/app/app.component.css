@@ -64,7 +64,9 @@ body{
 }
 
 .wrapper .top_navbar .right_info{
-	display: flex;
+  display: flex;
+  
+  
 }
 
 .wrapper .top_navbar .right_info .icon_wrap{
@@ -182,8 +184,15 @@ body{
   display: none;
 }
 
+
+
+.wrapper.active .sidebar_menu ul li a{
+  text-decoration: none;
+}
+
 .wrapper.active .sidebar_menu ul li a .list{
   display: none;
+
 }
 
 .wrapper.active .main_body .container{
