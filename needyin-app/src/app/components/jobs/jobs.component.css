@@ -6,16 +6,20 @@
 .jobs{
     padding: 20px;
     display: block;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    column-gap: 5px;
 }
 
 .jobs .item{
-    border: 1px solid #e0e0e0;
+    
     padding: 40px;
     display: block;
 }
 .jobs .item{
-	background: #fff;
-	border: 1px solid #e0e0e0;
+	
+	
 	padding: 25px;
 	font-size: 14px;
 	line-height: 22px;
@@ -42,5 +46,58 @@ button{
     width: 120px;
     border-radius: 2px solid darkblue;
 }
-           
+
+.jobs .item .head .companyName span{
+    color:#b4ede2;
+    font-size: 25px;
+}
+.jobs .item .head .companyName{
+    
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.jobs .item .head .jobProfile{
+    margin-left: -20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1b6ebf;
+    text-transform: uppercase;
+}
+
+.jobs .item ul{
+    margin-left: -30px;
+    padding-top: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+
+.jobs .item .keySkill span{
+    color: #1b6ebf;
+    padding-right: 10px;
+    text-transform: uppercase;
+    
+    
+}
+.jobs .item .jobDescription{
+    padding-top: 10px;
+    text-align: justify;
+}
+
+
+.jobs .item .jobDescription span{
+    color: #1b6ebf;
+    
+    text-transform: uppercase;
+    
+    
+}
+
+.jobs .item svg{
+    color: #1b6ebf;
+}
+
+
      
